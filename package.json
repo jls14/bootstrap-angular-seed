@@ -1,0 +1,25 @@
+{
+  "name": "angular-seed",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A sensible starter project for AngularJS",
+  "repository": "https://github.com/okigan/angular-seed",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6",
+    "angular-route": "^1.6",
+    "angular-animate": "^1.6",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "live-server": "^1.2",
+    "grunt": "^1.0.1",
+    "uglify-js": "^3.0.28",
+    "clean-css": "^4.1.8"
+  },
+   "scripts": {
+    "build": "build.js",
+    "start": "live-server"
+  }
+}
