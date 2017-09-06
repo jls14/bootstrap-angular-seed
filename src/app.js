@@ -4,6 +4,7 @@
    .module('app', [
    	'ngRoute',
 	'ngAnimate',
+	'config.service',
 	'api.service',
 	'navbar.component',
 	'main.view'

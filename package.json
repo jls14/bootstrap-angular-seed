@@ -14,12 +14,13 @@
   },
   "devDependencies": {
     "live-server": "^1.2",
+    "recursive-copy": "^2.0.6",
     "grunt": "^1.0.1",
     "uglify-js": "^3.0.28",
     "clean-css": "^4.1.8"
   },
-   "scripts": {
-    "build": "build.js",
+  "scripts": {
+    "rebuild": "node scripts/build.js",
     "start": "live-server"
   }
 }
